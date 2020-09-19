@@ -1,0 +1,23 @@
+{
+  "name": "TESTING_PRACTICE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bouaik/TESTING_PRACTICE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bouaik/TESTING_PRACTICE/issues"
+  },
+  "homepage": "https://github.com/bouaik/TESTING_PRACTICE#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5"
+  }
+}
