@@ -4,7 +4,7 @@ const analyse = (arr) => {
   const min = (arr) => Math.min(...arr);
 
   const max = (arr) => Math.max(...arr);
-  
+
   const analysed = {
     average: average(arr),
     min: min(arr),
