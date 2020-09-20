@@ -1,10 +1,10 @@
-const average = (arr) => arr.reduce((acc, num) => acc + num, 0) / arr.length;
-
-const min = (arr) => Math.min(...arr);
-
-const max = (arr) => Math.max(...arr);
-
 const analyse = (arr) => {
+  const average = (arr) => arr.reduce((acc, num) => acc + num, 0) / arr.length;
+
+  const min = (arr) => Math.min(...arr);
+
+  const max = (arr) => Math.max(...arr);
+  
   const analysed = {
     average: average(arr),
     min: min(arr),
