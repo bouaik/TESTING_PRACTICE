@@ -5,7 +5,12 @@ test('adds 1 + 2 to equal 3', () => {
     expect(result.add(1, 2)).toBe(3);
 });
 
-test('adds 1 + 2 to equal 3', () => {
+test('substract 1 - 2 to equal -1', () => {
     const result = new Calculator
     expect(result.substract(1, 2)).toBe(-1);
+});
+
+test('multibly 1 * 2 to equal 2', () => {
+    const result = new Calculator
+    expect(result.multiply(1, 2)).toBe(2);
 });
