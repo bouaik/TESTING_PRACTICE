@@ -6,11 +6,11 @@ const cipherWord = (word, num) => word.split('').map(char => {
         : String.fromCharCode(97 + ((char.charCodeAt() - 97 + num) % 26)));
     }
     return char;
-  }).join('');
-  
-  const cipher = (str, num) => {
+    }).join('');
+
+    const cipher = (str, num) => {
     const arr = str.split(' ');
     return arr.map(word => cipherWord(word, num)).join(' ');
-  };
+};
   
-  export default cipher;
+export default cipher;
