@@ -1,20 +1,20 @@
 class Calculator {
-    add(a, b) {
-        return a + b
-    }
+  /* eslint-disable class-methods-use-this */
+  add(a, b) {
+    return a + b;
+  }
 
-    substract(a, b) {
-        return a - b
-    }
+  substract(a, b) {
+    return a - b;
+  }
 
-    multiply(a, b) {
-        return a * b
-    }
+  multiply(a, b) {
+    return a * b;
+  }
 
-    divide(a,b) {
-        return a / b
-    }
-
+  divide(a, b) {
+    return a / b;
+  }
 }
 
-export default Calculator
+export default Calculator;
