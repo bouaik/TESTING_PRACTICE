@@ -11,6 +11,10 @@ class Calculator {
         return a * b
     }
 
+    divide(a,b) {
+        return a / b
+    }
+
 }
 
 export default Calculator

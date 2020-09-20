@@ -14,3 +14,8 @@ test('multibly 1 * 2 to equal 2', () => {
     const result = new Calculator
     expect(result.multiply(1, 2)).toBe(2);
 });
+
+test('multibly 1 / 2 to equal 0.5', () => {
+    const result = new Calculator
+    expect(result.divide(1, 2)).toBe(0.5);
+});
