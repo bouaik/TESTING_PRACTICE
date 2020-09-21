@@ -1,0 +1,27 @@
+{
+  "name": "testing_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bouaik/TESTING_PRACTICE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bouaik/TESTING_PRACTICE/issues"
+  },
+  "homepage": "https://github.com/bouaik/TESTING_PRACTICE#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.4.2"
+  }
+}
